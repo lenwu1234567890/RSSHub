@@ -15,6 +15,7 @@ services:
             REDIS_URL: 'redis://redis:6379/'
             PUPPETEER_WS_ENDPOINT: 'ws://browserless:3000'  # marked
             PROXY_URI: 'socks5h://warp-socks:9091'
+            BILIBILI_COOKIE_10056 : "buvid3=37FB7DD2-733D-8D22-7E2E-46347FCA077467282infoc; b_nut=1746683667; _uuid=A9BDD318-4E23-B626-2BEE-2A92F2C10114C70481infoc; buvid_fp=c33ff36c0709d250d366fb5d56fe217d; buvid4=D56E2D93-AB4E-5BF0-7C47-4D74082B255570918-025050813-giM1FtiAyzqyrQjxLil2RA%3D%3D; rpdid=|(~Y~YumJ|k0J'u~RYY)JY~u; enable_web_push=DISABLE; enable_feed_channel=ENABLE; CURRENT_FNVAL=2000; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTEzNjU0NDksImlhdCI6MTc1MTEwNjE4OSwicGx0IjotMX0.TZ8VvLQ93RP7M7gTuWN9VDjKBwS1dChzebZoDB62_zs; bili_ticket_expires=1751365389; SESSDATA=c17c2ccd%2C1766662405%2Cd0400%2A61CjDVYr9ILISbNuYG9DcTtQgmlPM78fZEQqjRKsnGk8mlUHPX1gq2FBvNfgZEHaI9CqYSVklPQlFsYlI1bS1WcG9RdWF6Rnd4Uk55QjhOVDFqWHhEYm01M3BGZmstcWR1cXprcTZMSE1FWkpVcTVUUzZCYno3YXZveW1kT09ldHJfQVBVVmZCYk93IIEC; bili_jct=fefe86defcdbbd49e433befdab926610; DedeUserID=3546586292423067; DedeUserID__ckMd5=301fba20ec0d000a; bp_t_offset_3546586292423067=1083502403468132352; b_lsid=A5DEE119_197B96B815C; header_theme_version=OPEN; theme-tip-show=SHOWED; sid=56x2le0u; home_feed_column=4; browser_resolution=1152-940"
         depends_on:
             - redis
             - browserless  # marked
